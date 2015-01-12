@@ -40,7 +40,7 @@ public class Application extends Controller {
 	public static void verifikasi(Anggota agt){
 		if (validation.hasErrors()){
 			flash.error("Hei ada error");
-			index();
+			//index();
 		}
 		render(agt);	
 	}
